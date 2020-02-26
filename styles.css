@@ -1,0 +1,185 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    background-image: url("images/jesus-kiteque-wn-KYaHwcis-unsplash.jpg");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: right;
+    background-size: 100% auto;
+    
+ 
+    /* above: how to take the zoom out of the background picture */
+}
+.row a {
+    /* padding-right: 30px; */
+    margin-right: 30px;
+    color: white;
+}
+.block {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-block: 30px;
+}
+.brandName {
+    background-color:rgb(118, 4, 48);
+    color:white;
+    font-size: 20px;
+    font-weight: Bold;
+    padding-top:22px;
+    height:50px;
+    margin-top: 10px;
+    text-align: center;
+   line-height: 1px;
+   font-family: serif;
+   border-top: 8px solid gray;
+}
+.block-header {
+    color:rgb(118, 4, 48);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+#about-image {
+    float: right;
+    width: 200px;
+    margin: 0 20px 10px 0;
+    border-radius: 80%;
+
+}
+
+.navbar-brand {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 35px;
+    font-size: 20px;
+    text-align: center;
+    /* background: #4aaaa5; */
+
+}
+
+.navbar {
+    border: solid 3px #dddddd;
+    height: 50px;
+    margin:  0 30px 0;
+    
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 0px;
+    border-top: 8px solid gray;
+        text-align: center;
+    line-height: 60px;
+    margin-top: 30px;
+    color: #dddddd;
+    position: fixed;
+    background-color:rgb(118, 4, 48);
+}
+
+.portfolio-footer {
+    width: 100%;
+    height: 25px;
+    left: 0;
+    bottom: -10px;
+    padding-bottom: 0px;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 30px;
+    color: #dddddd;
+    position: fixed;
+    background: #666666;
+}
+
+/* .caption {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: -23px;
+    position: absolute;
+    top: 85%;
+    width: 92%;
+
+
+} */
+
+#form-msg {
+    line-height: 100px;
+    width: 100%;
+}
+
+.submit-btn {
+    background-color:  rgb(118, 4, 48);
+}
+
+/* Photo by Brandi Redd on Unsplash
+Photo by Hello I'm Nik 🇬🇧 on Unsplash - seta
+ Photo by Jesus Kiteque on Unsplash*/
+
+.btn.btn-link {
+    background-color: rgb(118, 4, 48);
+}
+
+.my-info {
+    /* background-color: coral; */
+    /* border: 1px solid black; */
+    /* width: 250px; */
+    /* margin-top: 20px; */
+}
+ul {
+    margin-right: 360px;
+    padding: 0;
+    float: right;
+}
+
+.phone {
+    margin-left: 30px;
+}
+
+.right {
+    padding:0;
+    margin:0;
+    width:400px;
+    float:right;
+
+}
+
+.right ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+    border:0;
+    float:right;
+  }
+  .right ul li {
+    float: right;
+    margin:0;
+    padding:0;
+    border:0;
+  }
+  .right ul li a {
+    float:right;
+    margin:0;
+    padding:13px 10px;
+    text-decoration:none;
+    border:1px
+    solid #000;
+    line-height: 30px;
+    color: white;
+    position: flex;
+  }
+a.link-github {
+    color:  rgb(118, 4, 48);
+
+
+}
+/* p {
+    margin-bottom: 150px;
+} */
