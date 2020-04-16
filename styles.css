@@ -1,15 +1,22 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-    background-image: url("images/Seattle.jpg");
-    background-repeat: no-repeat;
+   background-color:#f5f5dc;
+    /* background-repeat: no-repeat; */
     /* background-attachment: fixed; */
-    background-position: right;
-    background-size: 100% auto;
+    /* background-position: right; */
+    /* background-size: 100% auto; */
    
+    /* z-index: -1; */
+
  
     /* above: how to take the zoom out of the background picture */
 }
+/* .imagebg {
+    opacity: 0.6;
+    background-image: url("images/Seattle.jpg");
+} */
+
 .row a {
     /* padding-right: 30px; */
     margin-right: 30px;
@@ -24,46 +31,149 @@ body {
     width: 600px;
 
 }
-.brandName-responsive {
+.brandName-aboutme {
     /* background-color:rgb(118, 4, 48); */
-    color:black;
-    font-size: 50px;
+    color:#3e2723;
+    font-size: 30px;
     font-weight: Bold;
-    padding-top:50px;
-    height:250px;
-    margin-top: 100px;
+    padding-top:0px;
+    /* height:50px; */
+    margin-top: 40px;
+    margin-left: 0px;
+    text-align: left;
+   /* line-height: 1px; */
+   font-family: Arial, Helvetica, sans-serif;
+   float: right;
+   /* border-top: 8px solid gray; */
+   
+}
+.block-header-contact {
+    color: #3e2723;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 500px;
+    
+}
+
+.block-header-aboutme{
+    /* color:rgb(118, 4, 48); */
+    color: #3e2723;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
     text-align: center;
-   line-height: 1px;
+    margin-top: 80px;
+    /* margin-left:350px; */
+    
+}
+.brandName-aboutme {
+    /* background-color:rgb(118, 4, 48); */
+    color:#3e2723;
+    font-size: 30px;
+    font-weight: Bold;
+    padding-top:0px;
+    /* height:50px; */
+    margin-top: 40px;
+    margin-left: 0px;
+    text-align: left;
+   /* line-height: 1px; */
    font-family: 'Pacifico', cursive;
    float: right;
    /* border-top: 8px solid gray; */
    
 }
-.block-header {
+.brandName-aboutme {
+    /* background-color:rgb(118, 4, 48); */
+    color:#3e2723;
+    font-size: 30px;
+    font-weight: Bold;
+    padding-top:0px;
+    /* height:50px; */
+    margin-top: 40px;
+    margin-left: 0px;
+    text-align: left;
+   /* line-height: 1px; */
+   font-family: Arial, Helvetica, sans-serif;
+   /* float: right; */
+   /* border-top: 8px solid gray; */
+   
+}
+.brandName-contact {
+    /* background-color:rgb(118, 4, 48); */
+    color:#3e2723;
+    font-size: 30px;
+    font-weight: Bold;
+    padding-top:0px;
+    /* height:50px; */
+    margin-top: 40px;
+    /* margin-left: 130px; */
+    text-align: center;
+   /* line-height: 1px; */
+   font-family: Arial, Helvetica, sans-serif;
+   float: right;
+   /* border-top: 8px solid gray; */
+   
+}
+.brandName-portfolio {
+    /* background-color:rgb(118, 4, 48); */
+    color:#3e2723;
+    font-size: 30px;
+    font-weight: Bold;
+    padding-top:0px;
+    /* height:50px; */
+    margin-top: 40px;
+    margin-left: 0px;
+    text-align: left;
+   /* line-height: 1px; */
+   font-family: Arial, Helvetica, sans-serif;
+   float: right;
+   /* border-top: 8px solid gray; */
+   
+}
+
+/* .block-header-contact {
     /* color:rgb(118, 4, 48); */
-    color: #4d88ff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* color: #3e2723; */
+    /* font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 80px;
+    margin-left:350px;
+    
+} */
+
+.block-header-aboutme{
+    /* color:rgb(118, 4, 48); */
+    color: #3e2723;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
     margin-top: 80px;
+    /* margin-left:350px; */
     
 }
 
 #about-image {
-    float: left;
-    width: 200px;
+    float: right;
+    width: 500px;
     /* margin: 0 20px 10px 0; */
     border-radius: 80%;
     margin-top: 0;
     margin-left: 30px;
+    margin-right:30px;
+    opacity:0.6;
+    
 
     
 }
 
 .navbar-brand {
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     line-height: 35px;
     font-size: 20px;
@@ -92,7 +202,7 @@ footer {
     color: #dddddd;
     position: fixed;
     /* background-color:rgb(118, 4, 48); */
-    background-color: #4d88ff;
+    background-color: #3e2723;
 
 }
 
@@ -131,7 +241,7 @@ footer {
 
 .submit-btn {
     /* background-color:  rgb(118, 4, 48); */
-    background-color: #4d88ff;
+    background-color: #3e2723;
     margin-left: 15px;
     color: white;
 }
@@ -140,9 +250,9 @@ footer {
 Photo by Hello I'm Nik 🇬🇧 on Unsplash - seta
  Photo by Jesus Kiteque on Unsplash*/
 
-.btn.btn-link {
+/* .btn.btn-link {
     background-color: rgb(118, 4, 48);
-}
+} */
 
 .my-info {
     /* background-color: coral; */
@@ -193,7 +303,7 @@ ul {
     position: flex;
   }
 a.link-github {
-    color:  rgb(118, 4, 48);
+    color:  #3e2723;
 
 
 }
@@ -208,16 +318,26 @@ a.link-github {
     height: 100%;
 }
 
-#myName {
-float: right;
-margin-right: 150px;
+/* #myName {
+/* float: center; */
+/* margin-right: 150px;
 margin-top: 50px;
 font-weight: 300;
 font-size: 40px;
 font-family: 'Pacifico', cursive;
-}
+text-align: center;
+} */ */
 
 .container-form {
 /* margin-top: 250px; */
 padding-top: 40px;
+margin-left:70px;
+}
+
+.form-horizontal {
+    margin-left: 150px;
+}
+
+.contact-line {
+    width: 930px;
 }
