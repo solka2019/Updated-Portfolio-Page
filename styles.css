@@ -2,20 +2,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
    background-color:#f5f5dc;
-    /* background-repeat: no-repeat; */
-    /* background-attachment: fixed; */
-    /* background-position: right; */
-    /* background-size: 100% auto; */
-   
-    /* z-index: -1; */
-
- 
-    /* above: how to take the zoom out of the background picture */
 }
-/* .imagebg {
-    opacity: 0.6;
-    background-image: url("images/Seattle.jpg");
-} */
 
 .row a {
     /* padding-right: 30px; */
@@ -68,6 +55,19 @@ body {
     /* margin-left:350px; */
     
 }
+
+.block-header-portfolio{
+    /* color:rgb(118, 4, 48); */
+    color: #3e2723;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    /* margin-left:350px; */
+    
+}
+
 .brandName-aboutme {
     /* background-color:rgb(118, 4, 48); */
     color:#3e2723;
@@ -133,17 +133,6 @@ body {
    
 }
 
-/* .block-header-contact {
-    /* color:rgb(118, 4, 48); */
-    /* color: #3e2723; */
-    /* font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: left;
-    margin-top: 80px;
-    margin-left:350px;
-    
-} */
 
 .block-header-aboutme{
     /* color:rgb(118, 4, 48); */
@@ -221,18 +210,6 @@ footer {
     background: #666666;
 }
 
-/* .caption {
-    background-color: #4aaaa5;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    margin-top: -23px;
-    position: absolute;
-    top: 85%;
-    width: 92%;
-
-
-} */
 
 #form-msg {
     line-height: 100px;
@@ -246,25 +223,12 @@ footer {
     color: white;
 }
 
-/* Photo by Brandi Redd on Unsplash
-Photo by Hello I'm Nik 🇬🇧 on Unsplash - seta
- Photo by Jesus Kiteque on Unsplash*/
 
-/* .btn.btn-link {
-    background-color: rgb(118, 4, 48);
-} */
-
-.my-info {
-    /* background-color: coral; */
-    /* border: 1px solid black; */
-    /* width: 250px; */
-    /* margin-top: 20px; */
-}
-ul {
+/* ul {
     margin-right: 360px;
     padding: 0;
     float: right;
-}
+} */
 
 .phone {
     margin-left: 30px;
@@ -341,3 +305,12 @@ margin-left:70px;
 .contact-line {
     width: 930px;
 }
+
+.container-portfolio {
+     margin-top: 140px;
+     height: 100px; 
+ } 
+ /* .row1 {
+     padding:0;
+     margin:0;
+ } */
